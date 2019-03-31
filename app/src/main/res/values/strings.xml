@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_news_satu">Wisuda Bsi Bakal Meriah</string>
+    <string name="desc_news_satu">Wisuda Bsi Bandung 2019 dikabarkan akan meriah karena akan mendatangkan sejumlah artis papan atas</string>
+    <string name="title_news_dua">Seminar Entrepreneur</string>
+    <string name="desc_news_dua">Seminar entrepreneur yang diadakan di aula BSI Bandung, mendorong para mahasiswa untuk menjadi wirausahawan muda</string>
+</resources>

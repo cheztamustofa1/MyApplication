@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/cardNews">
+
+    <RelativeLayout
+        android:background="@drawable/grad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/news_satu"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageNews"/>
+
+
+        <TextView
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/imageNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTitleNews"
+            android:layout_marginTop="8dp"
+            android:text="@string/title_news_satu"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@id/textViewTitleNews"
+            android:text="@string/desc_news_satu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDescNews"
+            android:maxLength="50" />
+    </RelativeLayout>
+
+
+
+
+</android.support.design.card.MaterialCardView>
